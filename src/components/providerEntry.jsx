@@ -3,7 +3,7 @@ export default function ProviderEntry({ProviderName, ProviderEmail}){
         <tr className="provider-entry">
             <td>{ProviderName}</td>
             <td>{ProviderEmail}</td>
-            <td className="select-td"> <button>Select</button> </td>
+            <td className="select-td"> <button onClick={()=>alert(ProviderEmail)}>Select</button> </td>
         </tr>
     );
 }
